@@ -60,7 +60,7 @@ cp plugin/libsoundbot_plugin.so TeamSpeak3-Client-linux_amd64/plugins/;
 
 #Skrypty startowe
 greenMessage "Tworzę polecenie ./start.sh do uruchamiania aplikacji";
-echo "sudo apt-get install -y libxss1 libpci3"$'\n'"./$FOLDER/sinusbot" >$HOME/start.sh;
+echo "sudo apt-get install -y libxss1 libpci3 libgl1-mesa-glx"$'\n'"./$FOLDER/sinusbot" >$HOME/start.sh;
 chmod +x $HOME/start.sh;
 
 #Pierwsze uruchomienie
